@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source sans pro";
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+  
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+/* Header Style */
+.header { 
+    background-color:white;
+    height: 100%;
+}
+.title {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title__name {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+#header {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-descrpt {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+
+}
+.navbar {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+
+}
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: rgba(130, 130, 130, 1);
+    border-bottom: 1px solid rgba(130, 130, 130, 1);
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    margin-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* header end */
+
+/* sections 1-2-3-4 */
+.title-item {
+    color: rgba(130, 130, 130, 1);
+    font-size: 42px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.title-item__text {
+    font-size: 20px;
+    color:rgba(130, 130, 130, 1);
+}
+span {
+    font-weight: 700;
+}
+.skill{
+    display: flex;
+   justify-content: space-between;
+}
+.progress {
+    margin-top: 15px;
+    display: flex;
+}
+}
+.skill__block img{
+    width: 100px;
+    height: 100px;
+}
+.card-block {
+    background-color: rgba(130, 130, 130, 1);
+}
+/* Sections 1-2-3-4 end  */
+
+/* Footer start */
+.footer {
+    background-color:rgba(130, 130, 130, 1);
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer h2 {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.footer_blocks{
+    display: flex;
+    justify-content: center;
+}
+.footer_blocks img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+/* footer end */
+
+@media all and (max-width:768px) {
+    .skill {
+        display: flex;
+        flex-wrap: wrap
+    }
+}
